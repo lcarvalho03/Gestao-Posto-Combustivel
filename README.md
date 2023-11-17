@@ -1,4 +1,4 @@
-# Gestao-Posto-Combustivel
+# Projeto Gestã de Posto de Combustível
 Projeto Delphi 11.3 para Gestão de Posto de Combustíveis
 
 Script para criação do banco de dados se encontra na pasta \docs, arquivo "script database sql server.sql".
@@ -13,3 +13,8 @@ Confesso que, devido ao padrão das telas de cadastros, eu poderia ter utilizado
 
 A Arquitetura utilizada no projeto foi MVC com DAO.
 Poderia não ter implementado a classe DAO. Fiz para mostrar que tenho esse conhecimento, também...
+
+O relatório, desenvolvido com FortesReport, não exibe os dados. Fiz a instalação pelo instalador baixado no Git da Comunidade, onde, após o processo, é preciso compilar e dar build em alguns pacotes.
+Mesmo assim, os dados não aparecem.
+O relatório foi criado, com os Grupos de "Data de Abastecimento", "Tanque de Combustível" e "Bomba de Combustível". Mas, os dados não aparecem.
+De qualquer forma, apresento os registro em um DBGrid, após o usuário definir o período da consulta.
