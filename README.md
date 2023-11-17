@@ -9,7 +9,8 @@
 - Em cada abastecimento incide um imposto de 13% do valor abastecido, e essa informação deve ser registrada.
 - Cada bomba está ligada a um tanque. No posto ABC existem dois tanques, um de gasolina e um de óleo diesel. Para cada tanque duas bombas de combustível.
 - Emitir relatório em que os abastecimentos fossem agrupados, exibindo o dia, o tanque, a bomba e o valor. E ao final do relatório a soma total do período
-** A aplicação não possui tela de login.
+
+A aplicação não possui tela de login.
 
 Devido à minha falta de tempo, fiz uma análise muito ligeira sobre o projeto e mudanças foram feitas no decorrer do desenvolvimento.
 
