@@ -22,13 +22,13 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
     Height = 65
     Align = alTop
     TabOrder = 0
-    ExplicitWidth = 628
+    ExplicitWidth = 1105
     DesignSize = (
       1109
       65)
     object btnFechar: TSpeedButton
       Tag = 1
-      Left = 1009
+      Left = 1005
       Top = 26
       Width = 85
       Height = 33
@@ -147,6 +147,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
         F8F8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
       NumGlyphs = 2
       OnClick = btnFecharClick
+      ExplicitLeft = 1009
     end
     object Label1: TLabel
       Left = 16
@@ -969,7 +970,6 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
         Value = 45247d
       end>
     SQL.Strings = (
-      'SET DATEFORMAT ymd;'
       'select '
       #9'a.*'
       
@@ -980,10 +980,12 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
         'centual_imposto] / 100), 2) as valor_imposto'
       'from [dbo].[Abastecimento] a'
       'where (1 = 1)'
-      '  and ([data_abastecimento] between :dt_inicio and :dt_termino)'
       
-        'order by [data_abastecimento], [tanque_combustivel], [bomba_comb' +
-        'ustivel]')
+        '  and (a.[data_abastecimento] between :dt_inicio and :dt_termino' +
+        ')'
+      
+        'order by a.[data_abastecimento], a.[tanque_combustivel], a.[bomb' +
+        'a_combustivel]')
     Left = 856
     Top = 544
   end
