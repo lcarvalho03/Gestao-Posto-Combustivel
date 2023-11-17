@@ -12,7 +12,25 @@ object FrmMain: TFrmMain
   Font.Style = []
   Menu = MainMenu1
   Position = poScreenCenter
+  DesignSize = (
+    930
+    523)
   TextHeight = 15
+  object Label1: TLabel
+    Left = 457
+    Top = 320
+    Width = 410
+    Height = 142
+    Anchors = [akRight, akBottom]
+    Caption = 'Gest'#227'o de Posto de Combust'#237'vel'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -53
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    WordWrap = True
+  end
   object MainMenu1: TMainMenu
     Left = 296
     Top = 216

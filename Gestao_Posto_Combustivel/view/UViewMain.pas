@@ -7,7 +7,7 @@ uses
   System.Classes, Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus,
   UViewAbastecimento, UViewBombaCombustivel, UViewImposto, UViewTanqueCombustivel,
   UFrameBaseCadastro, UViewTeste, UViewTipoCombustivel,
-  UViewRptAbastecimentoDiaTanqueBomba;
+  UViewRptAbastecimentoDiaTanqueBomba, Vcl.StdCtrls;
 
 type
   TFrmMain = class(TForm)
@@ -21,6 +21,7 @@ type
     Imposto1: TMenuItem;
     ipodeCombustvel1: TMenuItem;
     AbastecimentoporDiaTanqueBomba1: TMenuItem;
+    Label1: TLabel;
     procedure Sair1Click(Sender: TObject);
     procedure anquedeCombustvel1Click(Sender: TObject);
     procedure Imposto1Click(Sender: TObject);

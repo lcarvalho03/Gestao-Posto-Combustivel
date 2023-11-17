@@ -3,8 +3,8 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
   Top = 0
   BorderIcons = [biSystemMenu]
   Caption = 
-    'Relat'#243'rio de tAbastecimento por Dia / Tanque / Bomba de Combust'#237 +
-    'vel'
+    'Relat'#243'rio de Abastecimento por Dia / Tanque / Bomba de Combust'#237'v' +
+    'el'
   ClientHeight = 668
   ClientWidth = 1109
   Color = clBtnFace
@@ -524,7 +524,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
   end
   object RLReport1: TRLReport
     Left = 40
-    Top = 229
+    Top = 133
     Width = 794
     Height = 1123
     DataSource = DataSource
@@ -628,7 +628,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
       Borders.FixedTop = True
       Borders.FixedBottom = True
       object RLDBText1: TRLDBText
-        Left = 165
+        Left = 213
         Top = 8
         Width = 104
         Height = 14
@@ -638,7 +638,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
         Text = ''
       end
       object RLDBText2: TRLDBText
-        Left = 312
+        Left = 360
         Top = 8
         Width = 50
         Height = 14
@@ -648,7 +648,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
         Text = ''
       end
       object RLDBText3: TRLDBText
-        Left = 388
+        Left = 436
         Top = 8
         Width = 53
         Height = 14
@@ -787,7 +787,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
         Text = ''
       end
       object RLLabel7: TRLLabel
-        Left = 208
+        Left = 256
         Top = 24
         Width = 61
         Height = 14
@@ -800,7 +800,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
         ParentFont = False
       end
       object RLLabel8: TRLLabel
-        Left = 301
+        Left = 349
         Top = 24
         Width = 61
         Height = 14
@@ -813,7 +813,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
         ParentFont = False
       end
       object RLLabel9: TRLLabel
-        Left = 379
+        Left = 427
         Top = 24
         Width = 62
         Height = 14
@@ -943,8 +943,8 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
   end
   object DataSource: TDataSource
     DataSet = cdsConsulta
-    Left = 304
-    Top = 280
+    Left = 936
+    Top = 544
   end
   object ADOQuery: TADOQuery
     Connection = DM.ADOConnection
@@ -984,8 +984,8 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
       
         'order by [data_abastecimento], [tanque_combustivel], [bomba_comb' +
         'ustivel]')
-    Left = 432
-    Top = 280
+    Left = 856
+    Top = 544
   end
   object DataSetProvider1: TDataSetProvider
     DataSet = ADOQuery
@@ -993,6 +993,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
     Top = 392
   end
   object cdsConsulta: TClientDataSet
+    Active = True
     Aggregates = <>
     Params = <
       item
@@ -1022,6 +1023,7 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
     end
     object cdsConsultadata_abastecimento: TDateTimeField
       FieldName = 'data_abastecimento'
+      DisplayFormat = 'dd/MM/yyyy'
     end
     object cdsConsultatanque_combustivel: TStringField
       FieldName = 'tanque_combustivel'
