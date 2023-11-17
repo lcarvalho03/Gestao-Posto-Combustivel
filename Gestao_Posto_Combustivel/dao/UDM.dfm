@@ -10,7 +10,7 @@ object DM: TDM
       'hentication="";Access Token=""'
     LoginPrompt = False
     Provider = 'MSOLEDBSQL.1'
-    Left = 112
-    Top = 160
+    Left = 166
+    Top = 168
   end
 end

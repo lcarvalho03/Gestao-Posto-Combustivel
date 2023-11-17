@@ -993,7 +993,6 @@ object FrmRptAbastecimentoDiaTanqueBomba: TFrmRptAbastecimentoDiaTanqueBomba
     Top = 392
   end
   object cdsConsulta: TClientDataSet
-    Active = True
     Aggregates = <>
     Params = <
       item
