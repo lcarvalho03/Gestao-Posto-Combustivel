@@ -39,3 +39,7 @@ De qualquer forma, apresento os registro em um DBGrid, após o usuário definir 
 
 ## Testes
 Foi implementado um Teste Unitário, onde o projeto de testes se encontra na pasta "Gestao_Posto_Combustivel\testes"
+
+## Problemas que não consegui resolver
+- A visualização dos dados do relatório, apesar do mesmo ter sido implementado.
+- O filtro do relatório, num range de datetime fields, não funciona como esperado. É preciso que você insire uma data com (D - 2) para que a consulta traga o registro da data que você solicitou.
