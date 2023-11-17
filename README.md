@@ -8,7 +8,7 @@ A aplicação não possui tela de login.
 
 Devido à minha falta de tempo, fiz uma análise muito ligeira sobre o projeto e mudanças foram feitas no decorrer do desenvolvimento.
 Procurei mostrar que tenho conhecimento de desenvolvimento Orientado a Objetos.
-Confesso que, devido ao padrão das telas de cadastros, eu poderia ter utilizado o conceito de Interfaces para a criação da Views e de RTTI para implemetação das classes DAO.
+Confesso que, devido ao padrão das telas de cadastros, eu poderia ter utilizado o conceito de Interfaces para a criação da Views e de RTTI para implemetação das classes DAO. Lembro de já ter utilizado RTTI, uma vez, onde uma Classe recebia, como parâmetro, uma classe Model e identificava sua classe, seus atributos e persistia no banco de dados. Isso economiza bastante tempo no desenvolvimento. Infelizmente, o tempo não me permitiu demostrar, na prática.
 
 
 A Arquitetura utilizada no projeto foi MVC com DAO.
