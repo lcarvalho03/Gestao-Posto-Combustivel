@@ -16,11 +16,9 @@ Devido à minha falta de tempo, fiz uma análise muito ligeira sobre o projeto e
 Confesso que, devido ao padrão das telas de cadastros, eu poderia ter utilizado o conceito de Interfaces para a criação da Views e de RTTI para implemetação das classes DAO. 
 Lembro de já ter utilizado RTTI, uma vez, onde uma Classe recebia, como parâmetro, uma classe Model e identificava sua classe, seus atributos e persistia no banco de dados. Isso economiza bastante tempo no desenvolvimento. Infelizmente, o tempo não me permitiu demostrar, na prática.
 
-## Script para criação dp Banco de Dados
+## Script para criação do Banco de Dados
 O Script se encontra na pasta \docs, arquivo "script database sql server.sql".
 Um registro é criado na tabela "[dbo].[Imposto]", com o valor de 13.00 %, conforme enunciado do projeto.
-
-
 
 ## Modelagem do banco de dados
 Vale observar que a tabela de Abastecimento não possui relacionamento com as tabelas de Bomba de Combustível, Tanque de Combustível e Tipo de Combustível. Fiz dessa forma para demonstrar que pensei no negócio, onde, caso um registro dessas tabelas seja alterado, afetará no histórico do Abastecimento. Assim, esses campos são do tipo TEXTO.
