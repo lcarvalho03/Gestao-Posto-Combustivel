@@ -172,10 +172,6 @@
             <FormType>dfm</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="..\view\UViewTeste.pas">
-            <Form>FrmTeste</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="..\model\UModelTipoCombustivel.pas"/>
         <DCCReference Include="..\dao\UDaoTipoCombustivel.pas"/>
         <DCCReference Include="..\controller\UControllerTipoCombustivel.pas"/>
@@ -183,11 +179,15 @@
             <Form>FrmTipoCombustivel</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="..\units\ULib.pas"/>
         <DCCReference Include="..\view\UViewRptAbastecimentoDiaTanqueBomba.pas">
             <Form>FrmRptAbastecimentoDiaTanqueBomba</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="..\view\UViewTeste.pas">
+            <Form>FrmTeste</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\units\ULib.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -215,19 +215,13 @@
             </Delphi.Personality>
             <Deployment Version="4">
                 <DeployFile LocalName="..\exe\PrjGestaoPostoCombustivel.exe" Configuration="Debug" Class="ProjectOutput">
-                    <Platform Name="Win64">
+                    <Platform Name="Win32">
                         <RemoteName>PrjGestaoPostoCombustivel.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\exe\PrjGestaoPostoCombustivel.rsm" Configuration="Debug" Class="DebugSymbols">
+                <DeployFile LocalName="..\exe\PrjGestaoPostoCombustivel.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win64">
-                        <RemoteName>PrjGestaoPostoCombustivel.rsm</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Win32\Debug\PrjGestaoPostoCombustivel.exe" Configuration="Debug" Class="ProjectOutput">
-                    <Platform Name="Win32">
                         <RemoteName>PrjGestaoPostoCombustivel.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>

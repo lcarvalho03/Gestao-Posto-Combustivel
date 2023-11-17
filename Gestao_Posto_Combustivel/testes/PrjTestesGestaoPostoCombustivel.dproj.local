@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/11/17 12:10:38.434,=C:\Users\leofr\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/17 12:11:14.661,C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\testes\UTestesAbastecimento.pas=C:\Users\leofr\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/17 12:11:41.648,C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\testes\PrjTestesGestaoPostoCombustivel.dproj=C:\Users\leofr\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/11/17 12:13:46.345,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelAbastecimento.pas</Transaction>
+    <Transaction>2023/11/17 12:14:06.223,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelTanqueCombustivel.pas</Transaction>
+    <Transaction>2023/11/17 12:14:17.713,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelTipoCombustivel.pas</Transaction>
+    <Transaction>2023/11/17 12:14:38.955,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelBombaCombustivel.pas</Transaction>
+    <Transaction>2023/11/17 12:17:44.212,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\view\UViewAbastecimento.pas</Transaction>
+    <Transaction>2023/11/17 12:18:24.866,C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelAbastecimento.pas=</Transaction>
+    <Transaction>2023/11/17 12:18:29.036,C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelBombaCombustivel.pas=</Transaction>
+    <Transaction>2023/11/17 12:18:33.528,C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelTanqueCombustivel.pas=</Transaction>
+    <Transaction>2023/11/17 12:18:33.628,C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelTipoCombustivel.pas=</Transaction>
+    <Transaction>2023/11/17 12:19:16.597,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelAbastecimento.pas</Transaction>
+    <Transaction>2023/11/17 12:19:28.889,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelImposto.pas</Transaction>
+    <Transaction>2023/11/17 12:23:08.003,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelBombaCombustivel.pas</Transaction>
+    <Transaction>2023/11/17 12:23:08.065,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelTanqueCombustivel.pas</Transaction>
+    <Transaction>2023/11/17 12:23:08.134,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\model\UModelTipoCombustivel.pas</Transaction>
+    <Transaction>2023/11/17 12:42:23.670,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\controller\UControllerAbastecimento.pas</Transaction>
+    <Transaction>2023/11/17 12:42:23.708,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\controller\UControllerImposto.pas</Transaction>
+    <Transaction>2023/11/17 12:42:41.046,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\dao\UDaoAbastecimento.pas</Transaction>
+    <Transaction>2023/11/17 12:43:04.463,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\dao\UDaoBombaCombustivel.pas</Transaction>
+    <Transaction>2023/11/17 12:43:26.660,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\units\ULib.pas</Transaction>
+    <Transaction>2023/11/17 12:43:50.106,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\dao\UDM.pas</Transaction>
+    <Transaction>2023/11/17 12:44:08.986,=C:\#LSCarvalho\Projetos\Fortes\Gestao_Posto_Combustivel\dao\UDaoImposto.pas</Transaction>
+  </Transactions>
+</BorlandProject>

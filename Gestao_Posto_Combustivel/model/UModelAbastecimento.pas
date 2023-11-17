@@ -57,9 +57,6 @@ uses
 
 constructor TAbastecimento.Create;
 begin
-  {tanque_combustivel := TTanqueCombustivel.Create;
-  bomba_combustivel := TBombaCombustivel.Create;
-  tipo_combustivel := TTipoCombustivel.Create;}
 end;
 
 constructor TAbastecimento.Create(id: Integer; nome: String;
@@ -70,9 +67,6 @@ end;
 
 destructor TAbastecimento.Destroy;
 begin
-  {FreeAndNil(tanque_combustivel);
-  FreeAndNil(bomba_combustivel);
-  FreeAndNil(tipo_combustivel);}
   inherited;
 end;
 
@@ -97,9 +91,6 @@ procedure TAbastecimento.LimpaAtributos;
 begin
   self.id := 0;
   self.data_abastecimento := Date;
-  {self.tanque_combustivel := TTanqueCombustivel.Create;
-  self.bomba_combustivel := TBombaCombustivel.Create;
-  self.tipo_combustivel := TTipoCombustivel.Create;}
   self.tanque_combustivel := '';
   self.bomba_combustivel := '';
   self.tipo_combustivel := '';

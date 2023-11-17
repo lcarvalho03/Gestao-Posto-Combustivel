@@ -56,10 +56,10 @@ type
     objAbastecimento: TAbastecimento;
     objImposto: TImposto;
     procedure InicializarCamosParaEdicao;
-    function CalculaValorTotal(valor_litro, qtd_litros: Double): Double;
     function CalculaValorImposto(valor_total, percentual_imposto: Double): Double;
   public
     { Public declarations }
+    function CalculaValorTotal(valor_litro, qtd_litros: Double): Double;
   end;
 
 var

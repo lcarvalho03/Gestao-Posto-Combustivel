@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3F329C60-A542-42A6-8F34-3E5C98659B9A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PrjGestaoPostoCombustivel.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\testes\PrjTestesGestaoPostoCombustivel.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PrjGestaoPostoCombustivel">
+        <MSBuild Projects="PrjGestaoPostoCombustivel.dproj"/>
+    </Target>
+    <Target Name="PrjGestaoPostoCombustivel:Clean">
+        <MSBuild Projects="PrjGestaoPostoCombustivel.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PrjGestaoPostoCombustivel:Make">
+        <MSBuild Projects="PrjGestaoPostoCombustivel.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PrjTestesGestaoPostoCombustivel">
+        <MSBuild Projects="..\testes\PrjTestesGestaoPostoCombustivel.dproj"/>
+    </Target>
+    <Target Name="PrjTestesGestaoPostoCombustivel:Clean">
+        <MSBuild Projects="..\testes\PrjTestesGestaoPostoCombustivel.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PrjTestesGestaoPostoCombustivel:Make">
+        <MSBuild Projects="..\testes\PrjTestesGestaoPostoCombustivel.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PrjGestaoPostoCombustivel;PrjTestesGestaoPostoCombustivel"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PrjGestaoPostoCombustivel:Clean;PrjTestesGestaoPostoCombustivel:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PrjGestaoPostoCombustivel:Make;PrjTestesGestaoPostoCombustivel:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

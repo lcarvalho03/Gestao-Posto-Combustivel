@@ -1,0 +1,43 @@
+unit UTestesAbastecimento;
+
+interface
+
+uses
+  DUnitX.TestFramework, UViewAbastecimento;
+
+type
+  [TestFixture]
+  TTestesAbastecimento = class
+  strict private
+    FViewAbastecimento: TFrmAbastecimento;
+  public
+    [Setup]
+    procedure Setup;
+
+    [TearDown]
+    procedure TearDown;
+
+    [Teste]
+    procedure TesteCalculoValorTotal;
+  end;
+
+implementation
+
+procedure TTestesAbastecimento.Setup;
+begin
+  FViewAbastecimento := TFrmAbastecimento.Create(TForm);
+end;
+
+procedure TTestesAbastecimento.TearDown;
+begin
+end;
+
+procedure TTestesAbastecimento.TesteCalculoValorTotal;
+begin
+
+end;
+
+initialization
+  TDUnitX.RegisterTestFixture(TTestesAbastecimento);
+
+end.

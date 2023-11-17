@@ -21,13 +21,13 @@ uses
   UViewTanqueCombustivel in '..\view\UViewTanqueCombustivel.pas' {FrmTanqueCombustivel},
   UViewImposto in '..\view\UViewImposto.pas' {FrmImposto},
   UFrameBaseCadastro in '..\view\UFrameBaseCadastro.pas' {FrameBaseCadastro: TFrame},
-  UViewTeste in '..\view\UViewTeste.pas' {FrmTeste},
   UModelTipoCombustivel in '..\model\UModelTipoCombustivel.pas',
   UDaoTipoCombustivel in '..\dao\UDaoTipoCombustivel.pas',
   UControllerTipoCombustivel in '..\controller\UControllerTipoCombustivel.pas',
   UViewTipoCombustivel in '..\view\UViewTipoCombustivel.pas' {FrmTipoCombustivel},
-  ULib in '..\units\ULib.pas',
-  UViewRptAbastecimentoDiaTanqueBomba in '..\view\UViewRptAbastecimentoDiaTanqueBomba.pas' {FrmRptAbastecimentoDiaTanqueBomba};
+  UViewRptAbastecimentoDiaTanqueBomba in '..\view\UViewRptAbastecimentoDiaTanqueBomba.pas' {FrmRptAbastecimentoDiaTanqueBomba},
+  UViewTeste in '..\view\UViewTeste.pas' {FrmTeste},
+  ULib in '..\units\ULib.pas';
 
 {$R *.res}
 

@@ -1,0 +1,31 @@
+unit UTestesAbastecimento;
+
+interface
+
+uses
+  DUnitX.TestFramework;
+
+type
+  [TestFixture]
+  TTestesAbastecimento = class
+  public
+    [Setup]
+    procedure Setup;
+    [TearDown]
+    procedure TearDown;
+  end;
+
+implementation
+
+procedure TTestesAbastecimento.Setup;
+begin
+end;
+
+procedure TTestesAbastecimento.TearDown;
+begin
+end;
+
+initialization
+  TDUnitX.RegisterTestFixture(TTestesAbastecimento);
+
+end.
