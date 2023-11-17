@@ -17,6 +17,10 @@ Devido à minha falta de tempo, fiz uma análise muito ligeira sobre o projeto e
 Confesso que, devido ao padrão das telas de cadastros, eu poderia ter utilizado o conceito de Interfaces para a criação da Views e de RTTI para implemetação das classes DAO. 
 Lembro de já ter utilizado RTTI, uma vez, onde uma Classe recebia, como parâmetro, uma classe Model e identificava sua classe, seus atributos e persistia no banco de dados. Isso economiza bastante tempo no desenvolvimento. Infelizmente, o tempo não me permitiu demostrar, na prática.
 
+## Codificação
+A implementação do código, praticamente, não possui documentação ("comentários"). 
+Procuro definir nomes de Classes, Atributos, Métodos, Forms e Units bastante sugestivos para evitar, ao máximo, a poluição do código e, principalmente, ajudar o companheiro de trabalho a entender o que codifiquei de maneira mais fácil.
+
 ## Script para criação do Banco de Dados
 O Script se encontra na pasta \docs, arquivo "script database sql server.sql".
 Um registro é criado na tabela "[dbo].[Imposto]", com o valor de 13.00 %, conforme enunciado do projeto.
