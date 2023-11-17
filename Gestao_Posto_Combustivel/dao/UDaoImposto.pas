@@ -55,7 +55,7 @@ end;
 class function TDaoImposto.GetSqlDelete: string;
 begin
   Result := 'delete ' +
-            'from [dao].[Imposto] ' +
+            'from [dbo].[Imposto] ' +
             'where ([id] = :id)';
 end;
 
@@ -119,8 +119,8 @@ var
   objImpostoAtivo: TImposto;
 begin
   Result := True;
-  objImposto := ObtemImpostoAtivo();
-  objImposto.ativo := False;
+  objImpostoAtivo := ObtemImpostoAtivo();
+  objImpostoAtivo.ativo := False;
 
   try
     lQuery := ObtemComponenteQuery(GetSqlInsert);
@@ -131,7 +131,10 @@ begin
 
     try
       lQuery.Connection.BeginTrans;
-      TDaoImposto.Update(objImposto);
+
+      //PAra evitar que exista mais de um imposto ativo.
+      TDaoImposto.Update(objImpostoAtivo);
+
       lQuery.ExecSQL;
       lQuery.Connection.CommitTrans;
     except
